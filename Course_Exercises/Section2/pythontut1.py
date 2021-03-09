@@ -31,4 +31,18 @@ Backspace : \b
 Tab : \t
 '''
 # *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+
+
 print(sys.maxsize)
+print(sys.float_info.max)
+
+# Float max is not accurate it will give an error after the #15 digit printed
+# Example below 
+
+f1 = 1.111111111111111
+f2 = 1.111111111111111
+
+f3 = f1 + f2
+print(f3)
+
