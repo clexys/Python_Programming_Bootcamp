@@ -6,20 +6,22 @@
 import sys
 
 my_age = 30
-my_name = Mike
+my_name = "Mike"
 
 print("Hello", my_name)
 
 ''' We created the name variable and called it 
 after it printed "Hello" '''
 
-### STRING VARIABLE ###
+# STRING VARIABLE
 
 # The String variable must contain double quotes
 # Below is an example on how to print quoted statements within your string
 # It works bcs we use the "escape sequence" (See Regex) 
 
-string_1 = "\"This is a quote"\"
+string_1 = "\"This is a quote\""
+print(string_1)
+
 
 '''
 Newline : \n
@@ -30,5 +32,3 @@ Tab : \t
 '''
 # *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 print(sys.maxsize)
-
-
