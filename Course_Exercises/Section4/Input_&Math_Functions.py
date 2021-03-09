@@ -101,13 +101,15 @@ print("exp(4) = ", math.factorial(4))
 # you that e^3 ~= 20
 print("log(20) = ", math.log(20))
 
-# You can define the base and 10^3 = 1000
+# Defining base 10 and powering it e.g 10^3 = 1000
 print("log(1000,10) = ", math.log(1000,10))
 
-# You can also use base 10 like this
+
+# Using base 10 like this
 print("log10(1000) = ", math.log10(1000))
 
 # We have the following trig functions
+# DONT FORGET TO CALL MATH BEFORE THE FUNCTIONS E.G math.cosh
 # sin, cos, tan, asin, acos, atan, atan2, asinh, acosh,
 # atanh, sinh, cosh, tanh
 # They follow this format
