@@ -2,6 +2,9 @@
 # Start with letter or underscore
 # Good practice is using _ and not camelCase
 
+# sys, is a module. A module provide pre-written code to save yourself some time
+import sys
+
 my_age = 30
 my_name = Mike
 
@@ -25,4 +28,7 @@ Single quote : \'
 Backspace : \b
 Tab : \t
 '''
+# *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+print(sys.maxsize)
+
 
