@@ -32,3 +32,21 @@ print("{} + {} = {}".format(num_1, num_2, sum_1))
 print("{} / {} = {}".format(num_1, num_2, quotient))
 print("{} * {} = {}".format(num_1, num_2, product))
 print("{} % {} = {}".format(num_1, num_2, remainder))
+
+# Problem to solve
+'''
+I want you to write a program that:
+
+Asks the user to input the number of miles
+You’ll convert miles to kilometers (kilometers = miles * 1.60934)
+Then print this for example 5 miles equals 8.0467 kilometers
+'''
+
+#MyGuess
+
+miles = input("Enter the number of miles : ")
+miles = int(miles)
+kilometers = miles * (1.691)
+
+print("miles equals kilometers, (miles, kilometers)
+      
