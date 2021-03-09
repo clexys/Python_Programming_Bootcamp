@@ -22,3 +22,9 @@ quotient = num_1 / num_2
 # Use modulus on the values to find the remainder
 remainder = num_1 % num_2
 
+# format() loads the variable values in order inside the brackets
+print("{} + {} = {}".format(num_1, num_2, sum_1))
+print("{} - {} = {}".format(num_1, num_2, difference))
+print("{} * {} = {}".format(num_1, num_2, product))
+print("{} / {} = {}".format(num_1, num_2, quotient))
+print("{} % {} = {}".format(num_1, num_2, remainder))
