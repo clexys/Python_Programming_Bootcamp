@@ -1,9 +1,10 @@
 name = input('What is your name : ')
 print('Hello', name)
 
-# Assign 2 values by splitting user input at the whitespace
+# Here we say that num_1 and num_2 are equal to the numbers that will be entered.
+# Split says that whatever is before the whitespace will be stored in num_1 and after the whitespace in num_2
 num_1, num_2 = input('Enter 2 Numbers : ').split()
-# Convert strings into regular numbers (integers)
+# Convert strings into (integers)
 num_1 = int(num_1)
 num_2 = int(num_2)
 # Add the values entered and store in sum
@@ -20,3 +21,4 @@ quotient = num_1 / num_2
 
 # Use modulus on the values to find the remainder
 remainder = num_1 % num_2
+
