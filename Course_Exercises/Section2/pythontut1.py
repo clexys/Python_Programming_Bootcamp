@@ -46,3 +46,10 @@ f2 = 1.111111111111111
 f3 = f1 + f2
 print(f3)
 
+# CASTING = Basically changing the data type
+
+print("Cast ", type(int(5.4)))  # to int
+print("Cast 2 ", type(str(5.4)))  # to string
+print("Cast 3 ", type(chr(97)))  # to string
+print("Cast 4 ", type(ord('a')))  # to int
+
