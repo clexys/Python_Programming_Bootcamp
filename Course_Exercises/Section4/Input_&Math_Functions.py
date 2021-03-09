@@ -23,8 +23,12 @@ quotient = num_1 / num_2
 remainder = num_1 % num_2
 
 # format() loads the variable values in order inside the brackets
+'''I can change the order in which the numbers print. However, they will always follow 
+the original operation order
+'''
+
+print("{} - {} = {}".format(num_2, num_1, difference))
 print("{} + {} = {}".format(num_1, num_2, sum_1))
-print("{} - {} = {}".format(num_1, num_2, difference))
-print("{} * {} = {}".format(num_1, num_2, product))
 print("{} / {} = {}".format(num_1, num_2, quotient))
+print("{} * {} = {}".format(num_1, num_2, product))
 print("{} % {} = {}".format(num_1, num_2, remainder))
