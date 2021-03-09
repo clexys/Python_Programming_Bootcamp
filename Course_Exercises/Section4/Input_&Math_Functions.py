@@ -1,3 +1,6 @@
+import math
+# ALWAYS REMEMBER when you use import you MUST reference the module to access methods
+
 name = input('What is your name : ')
 print('Hello', name)
 
@@ -65,6 +68,29 @@ kilometers = miles * 1.60934
 
 # Print results using format()
 print("{} miles equals {} kilometers".format(miles, kilometers))   
+      
+# *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+      
+print("ceil(4.4) = ", math.ceil(4.4))
+print("floor(4.4) = ", math.floor(4.4))
+print("fabs(-4.4) = ", math.fabs(-4.4))
+
+# Factorial = Multiply number in sequence e.g 1*2*3*4 etc
+print("factorial(4) = ", math.factorial(4))
+
+# Return remainder of division
+print("fmod(5,4) = ", math.fmod(5,4))
+
+# Receive a float and return an int
+print("trunc(4.2) = ", math.trunc(4.2))
+
+# Return x^y
+print("pow(2,2) = ", math.pow(2,2))
+
+# Return the square root
+print("sqrt(4) = ", math.sqrt(4))
+
+
       
       
       
