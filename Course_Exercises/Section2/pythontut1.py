@@ -53,3 +53,8 @@ print("Cast 2 ", type(str(5.4)))  # to string
 print("Cast 3 ", type(chr(97)))  # to string
 print("Cast 4 ", type(ord('a')))  # to int
 
+# Make sure i am casting to the correct data type when working with variables
+# Make sure to surround calculations with parentheses when they produce a single value
+num_1 = "1"
+num_2 = "2"
+print("1 + 2 =", (int(num_1) + int(num_2)))
