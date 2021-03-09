@@ -50,3 +50,22 @@ kilometers = miles * (1.691)
 
 print("miles equals kilometers, (miles, kilometers)
       
+
+#TODO : Find exercies to solve another time. Need more practic!!!
+
+
+#The actual solution .... I was kinda close, but far ajajajja
+miles = input('Enter Miles ')
+
+# Convert from string to integer
+miles = int(miles)
+
+# Perform calculation by multiplying 1.60934 times miles
+kilometers = miles * 1.60934
+
+# Print results using format()
+print("{} miles equals {} kilometers".format(miles, kilometers))   
+      
+      
+      
+      
