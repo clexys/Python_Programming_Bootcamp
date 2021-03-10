@@ -34,3 +34,15 @@ print("Is 6 even? : ", ((i % 2) == 0))
 for i in range(1, 20):
     if (i % 2 != 0):
         print(" Odd numbers=", i)
+
+# Addt'l info about Floats
+
+# How to cast into a float
+your_float = input("Enter a float : ")
+your_float = float(your_float)
+
+# Use format to define the number of decimals displayed
+# For 2 decimals I need to use {:.2f}
+# For more or less decimals just change the number
+# NOTE> THe system will round the last digit depending on input
+print("Rounded to 3 decimals : {:.3f}".format(your_float))
