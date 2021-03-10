@@ -60,15 +60,47 @@ payment and then receiving interest on the initial value as well as on interest 
 
 # HOW I THINK IT SHOULD BE
 # FINAL OUTPUT IS EMPTY. =,(
+# NOW I KNOW WHY... I WAS MISSING THE BRACKETS!!!! DUH!! I WAS USING FORMAT
 
 money = input("Decide your investment amount : ")
 int_rate = input("Your account's interest rate : ")
 
 money = float(money)
-int_rate = float(int_rate)
+int_rate = float(int_rate) * .01
 
-for i in range(10):
+for X in range(10):
     money = money + (money * int_rate)
 
-print("Your total earning over these 10 years is : ".format(money))
+print("Your total earning over these 10 years is : ${} ".format(money))
 
+# ACTUAL SOLUTION
+
+# Ask for money invested + the interest rate
+money = input("How much to invest: ")
+interest_rate = input("Interest Rate: ")
+
+# Convert value to a float
+money = float(money)
+
+# Convert value to a float and round the percentage rate by 2 digits
+interest_rate = float(interest_rate) * .01
+
+# Cycle through 10 years using for and range from 0 to 9
+for i in range(10):
+    # Add the current money in the account + interest earned that year
+    money = money + (money * interest_rate)
+
+# Output the results
+print("Investment after 10 years: {:.2f}".format(money))
+
+# ORDER OF OPERATIONS!!! REALLY IMPORTANT
+
+# Calculations will occur in this order :
+# 1. exponentiation and root extraction
+# 2. multiplication and division
+# 3. addition and subtraction
+
+# EXAMPLES
+print("2 + (3 * 4) =", (2 + (3 * 4)))
+print("(2 + 3) * 4 =", ((2 + 3) * 4))
+print("2 + (3 * 4) =", 2 + 3 * 4)
