@@ -46,3 +46,29 @@ your_float = float(your_float)
 # For more or less decimals just change the number
 # NOTE> THe system will round the last digit depending on input
 print("Rounded to 3 decimals : {:.3f}".format(your_float))
+
+# PROBLEM 2
+
+'''Calculate how much money a person will have after investing for 10 years
+Compounding interest is the act of reinvesting each years interest 
+payment and then receiving interest on the initial value as well as on interest payments'''
+
+# EXPECTATIONS :
+# 1. Have the user enter their investment amount and expected interest
+# 2. Each year their investment will increase by their investment + their investment * the interest rate
+# 3. Print out their earnings after a 10 year period
+
+# HOW I THINK IT SHOULD BE
+# FINAL OUTPUT IS EMPTY. =,(
+
+money = input("Decide your investment amount : ")
+int_rate = input("Your account's interest rate : ")
+
+money = float(money)
+int_rate = float(int_rate)
+
+for i in range(10):
+    money = money + (money * int_rate)
+
+print("Your total earning over these 10 years is : ".format(money))
+
