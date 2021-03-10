@@ -13,7 +13,7 @@ for i in [2,4,6,8,10]:
    to the number we define but not including that number. 
     For example'''
 
-for i in range (6):
+for i in range(6):
     print("i =", i)
 
 i = 6
@@ -24,3 +24,13 @@ print("Is 6 even? : ", ((i % 2) == 0))
 
 # Print all the odd numbers from 1-20
 
+# MY GUESS
+
+#for i in range(1, 20):
+ #   print("Odd numbers : ", (i % 2 != 0))
+ # I MISSED THE CONDITIONAL
+
+# ACTUAL SOLUTION
+for i in range(1, 20):
+    if (i % 2 != 0):
+        print(" Odd numbers=", i)
