@@ -9,13 +9,13 @@
 ''' ALWAYS the conditional needs to be followed by a colon ":" that 
 goes after the option provided'''
 
-drink = input("Pick One (Coke, or Pepsi) : ")
-if drink == "Coke":
-    print("Here is your Coke")
-elif drink == "Pepsi":
-    print("Here is your Pepsi")
-else:
-    print("Here is your water")
+#drink = input("Pick One (Coke, or Pepsi) : ")
+#if drink == "Coke":
+   # print("Here is your Coke")
+#elif drink == "Pepsi":
+    #print("Here is your Pepsi")
+#else:
+    #print("Here is your water")
     
 
 # Python Problem
@@ -29,28 +29,28 @@ else:
 
 # Store the user input of 2 numbers and the operator
 # REMEMBER TO USE SPLIT with the delimiter of the space, otherwise, will fail
-num1, operator, num2 = input('Enter Calculation: ').split()
+#num1, operator, num2 = input('Enter Calculation: ').split()
 
 # ALWAYS Convert the string (input is always considered a string) into integers
-num1 = int(num1)
-num2 = int(num2)
+#num1 = int(num1)
+#num2 = int(num2)
 
 # If, else if (elif) and else execute different code depending on a condition
-if operator == "+":
-    print("{} + {} = {}".format(num1, num2, num1+num2))
+#if operator == "+":
+    #print("{} + {} = {}".format(num1, num2, num1+num2))
 
 # If the 1st condition wasn't true check if this one is 
 # (That is exactly what elif does)
-elif operator == "-":
-    print("{} - {} = {}".format(num1, num2, num1 - num2))
-elif operator == "*":
-    print("{} * {} = {}".format(num1, num2, num1 * num2))
-elif operator == "/":
-    print("{} / {} = {}".format(num1, num2, num1 / num2))
+#elif operator == "-":
+    #print("{} - {} = {}".format(num1, num2, num1 - num2))
+#elif operator == "*":
+    #print("{} * {} = {}".format(num1, num2, num1 * num2))
+#elif operator == "/":
+    #print("{} / {} = {}".format(num1, num2, num1 / num2))
 
 # If none of the above conditions were true then do this by default
-else:
-    print("Use either + - * or / next time")
+#else:
+    #print("Use either + - * or / next time")
 
 ''' LOGICAL OPERATORS '''
 
@@ -83,7 +83,33 @@ elif not (age < 65):
 else:
     print("Sorry Not Important")
 
+# Python problem 2
+''''Determine what grade they should go
+ depending on age'''
 
+'''1. Age 5 go to Kinder
+   2. Ages 6-17 go to grades 1 through 12
+   3. Older than 17, "Go to college" '''
+
+age = int(input("Enter your kid's age : "))
+
+if age < 5:
+    print("Still to young")
+elif age == 5:
+    print("Goes to Kinder")
+elif (age >= 6) and (age <= 17):
+    grade = age - 5
+    print("Go to Grade {}".format(grade))
+else:
+    print("Go to college perro")
+
+# Ternary Operator
+# The ternary operator is used to assign one value or another based on a condition
+# It follows this format condition_true if condition else condition_false
+
+age = int(input("What is your age? "))
+can_vote = True if age >= 18 else False
+print("You can vote :", can_vote)
 
 
 
