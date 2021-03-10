@@ -76,9 +76,9 @@ if (age >= 1) and (age <= 18):
 # If age is either 21 or 50 then it is true
 elif (age == 21) or (age == 50):
     print("Important Birthday")
-# We check if age is less than 65 and then convert true to false or vice versa
+# Checks if the age is less than 65
 # This is the same as if we put age > 65
-elif not(age < 65):
+elif not (age < 65):
     print("Important Birthday")
 else:
     print("Sorry Not Important")
