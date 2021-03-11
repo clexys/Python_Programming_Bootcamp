@@ -88,7 +88,7 @@ hashes = 1
 stump_spaces = tree_height-1
 while tree_height != 0:
     for r in range(spaces):
-        print('', end="")
+        print(' ', end="")
 
     for r in range(hashes):
         print('#', end="")
@@ -97,5 +97,5 @@ while tree_height != 0:
     hashes += 2
     tree_height -= 1
 for r in range(stump_spaces):
-    print("", end="")
+    print(" ", end="")
 print("#")
