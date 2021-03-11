@@ -81,3 +81,5 @@ You will need to do the following in your program :
 6. Print stump spaces and then 1 hash
 '''
 
+tree_rows = int(input("How Tall Is Your Tree : "))
+r = 1
