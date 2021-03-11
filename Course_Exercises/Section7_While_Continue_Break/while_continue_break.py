@@ -2,11 +2,11 @@ import random
 
 # While loops are used when you don't know how many times you will have to loop
 
-rand_num = random.randrange(1, 51)
-i = 1
-while i != rand_num:
-    i += 1
-print("The random value is : ", rand_num)
+#rand_num = random.randrange(1, 51)
+#i = 1
+#while i != rand_num:
+    #i += 1
+#print("The random value is : ", rand_num)
 
 
 # Another way of doing it
@@ -29,24 +29,24 @@ print("The random value is : ", rand_num)
 
 # i is set as the starting value!!! MUST be define outside of the loop and it imperative we do it,
 # Otherwise, it will fail
-i = 1
-while i <= 20:
+#i = 1
+#while i <= 20:
     # If a number is even don't print it
-    if (i % 2) == 0:
-        i += 1
-        continue
+    # if (i % 2) == 0:
+      #  i += 1
+       # continue
 
     # If i equals 15 stop looping
-    if i == 15:
-        break
+    # if i == 15:
+      #  break
 
-    print("Odd : ", i)
+    # print("Odd : ", i)
     # Increment i
-    i += 1
+    # i += 1
 
     # Print the odds
     # It actually prints bcs you're telling the system to print while it's inside of
-    # the loop. So the orocess is,
+    # the loop. So the process is,
     # Loops to find odds, break if it find a 15, and prints the results of the loop.
     # That's why elif is not needed here
 
@@ -81,23 +81,21 @@ You will need to do the following in your program :
 6. Print stump spaces and then 1 hash
 '''
 
-tree_height = int(input("How Tall Is Your Tree : "))
+tree_height = input("How Tall Is Your Tree : ")
+tree_height = int(tree_height)
 spaces = tree_height-1
 hashes = 1
 stump_spaces = tree_height-1
-
-while tree_height !=0:
+while tree_height != 0:
     for r in range(spaces):
         print('', end="")
 
     for r in range(hashes):
         print('#', end="")
-
     print()
     spaces -= 1
-    hashes +=2
-    tree_height -=1
+    hashes += 2
+    tree_height -= 1
 for r in range(stump_spaces):
-    print('', end="")
-
+    print("", end="")
 print("#")
