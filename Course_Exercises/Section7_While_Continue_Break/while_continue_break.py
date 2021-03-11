@@ -81,5 +81,23 @@ You will need to do the following in your program :
 6. Print stump spaces and then 1 hash
 '''
 
-tree_rows = int(input("How Tall Is Your Tree : "))
-r = 1
+tree_height = int(input("How Tall Is Your Tree : "))
+spaces = tree_height-1
+hashes = 1
+stump_spaces = tree_height-1
+
+while tree_height !=0:
+    for r in range(spaces):
+        print('', end="")
+
+    for r in range(hashes):
+        print('#', end="")
+
+    print()
+    spaces -= 1
+    hashes +=2
+    tree_height -=1
+for r in range(stump_spaces):
+    print('', end="")
+
+print("#")
