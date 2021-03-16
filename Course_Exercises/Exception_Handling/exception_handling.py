@@ -34,6 +34,11 @@ You guessed it
 '''
 # Had no idea how to do it bcs he was not clear about 
 # what the "DoWhile" loop does bcs 
+
+# Did my research and now I understand what the "DoWhile" loop is
+# In Python, the dowhile has this structure 
+# while condition (true or false)
+# break operator
 secret_number = 7
 while True:
     guess = int(input("Guess a number between 1 and 10 : "))
