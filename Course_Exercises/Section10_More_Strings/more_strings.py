@@ -45,13 +45,10 @@ print("Where is string :", rand_string.find("string"))
 rand_string = "this is an important string"
 print(rand_string.replace("an ", "a kind of "))
 
-# Python Problem
-
-# Acronym generator
+# Python Problem >>> Acronym generator
 # The user will enter a string and then convert it to an
 # acronym with uppercase letters like this >>
 # Convert to Acronym : Random Access Memory
-# RAM
 
 # Ask for a string
 orig_string = input("Convert to Acronym : ")
