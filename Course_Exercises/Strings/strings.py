@@ -30,16 +30,20 @@ print(samp_string[-1])
 # A slice is where you define what index values 
 # you want between 2 brackets
 samp_string = "This is a very important string"
-# Get a slice by saying where to start and end
-# The 4th index isn't returned
+# Get a slice by saying where to start and where to end
+# The 7th index isn't returned
 print(samp_string[0:7])
 
 # Get everything starting at an index position
 print(samp_string[8:])
 
-# More slices
+# More ways to slice
+# The ":" at the end means I want to bypass 2 char when printing and the first line
+# tells me the start and the end
 print("Every Other ", samp_string[0:-1:2])
-print("Reverse ", samp_string[::-1])
+
+# By using 2 ":" you're telling
+print("Reverse ", samp_string[::10])
 
 # Join or concatenate strings with +
 print("Green " + "Eggs")
@@ -66,29 +70,32 @@ for i in range(0, len(samp_string)-1, 2):
 # 2 functions allow you to work with unicodes
 # You can get the Unicode code with ord()
 print("A =", ord("A"))
-# You can convert from Unicode with chr
+# You can convert the Unicode number to a letter with chr
 print("65 =", chr(65))
 
 # Let's say you want to add val plus 1. You could type out val = val + 1, but there is a shortcut way val_1 += 1
 # This shortcut can be used for all math operations
-cal_1 += 4
-val_1 -= 5
-val_1 *= 3
-val_1 /= 2
-val_1 %= 6
+
+# val_1 = val_1 + 1
+# val_1 -= 5
+# val_1 *= 3
+# val_1 /= 2
+# val_1 %= 6
 
 # Likewise you can also add one string to another in the same way
 # str_1 += str_2
 
-# Python Problem for you to Solve
+# Python Problem
 
 # As Derek says, it doesn't matter if I don't get it right,
 # The only goal is to understand the solution.
 # Your code should receive a uppercase string and then hide its meaning by turning it into a string of unicodes
 # Then it should translate the unicodes back into the original message 
 
+# First, request the string to work with
 norm_string = input("Enter a string to hide in uppercase: ")
-
+# Here I define secret_string as "" bcs if I had assigned a value, it wouldn't print what I wanted
+#
 secret_string = ""
 
 # Cycle through each character in the string
