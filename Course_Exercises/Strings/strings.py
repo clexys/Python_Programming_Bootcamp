@@ -1,4 +1,4 @@
- Strings
+# Strings
 
 # Strings are a series of characters between quotes. You can use Single quotes, double quotes or triple quotes.
 print(type("3"))
@@ -32,9 +32,9 @@ print(samp_string[-1])
 samp_string = "This is a very important string"
 # Get a slice by saying where to start and end
 # The 4th index isn't returned
-print(samp_string[0:4])
+print(samp_string[0:7])
 
-# Get everything starting at an index
+# Get everything starting at an index position
 print(samp_string[8:])
 
 # More slices
@@ -71,6 +71,7 @@ print("65 =", chr(65))
 
 # Let's say you want to add val plus 1. You could type out val = val + 1, but there is a shortcut way val_1 += 1
 # This shortcut can be used for all math operations
+cal_1 += 4
 val_1 -= 5
 val_1 *= 3
 val_1 /= 2
@@ -81,9 +82,8 @@ val_1 %= 6
 
 # Python Problem for you to Solve
 
-# Here is another problem you can work through
-# Remember it isn't important if you dont get it right
-# Think in new ways, search the internet and the only goal is to understand the solution.
+# As Derek says, it doesn't matter if I don't get it right,
+# The only goal is to understand the solution.
 # Your code should receive a uppercase string and then hide its meaning by turning it into a string of unicodes
 # Then it should translate the unicodes back into the original message 
 
