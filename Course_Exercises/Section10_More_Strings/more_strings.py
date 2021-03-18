@@ -111,11 +111,12 @@ HINTS
 3. You get the unicode of a character with ord(yourLetter)
 4. You convert from unicode to character with chr(yourNumber)
 5. Use isupper() to decided which unicodes to work with
-6. Add the key (number of characters to shift) and if bigger or smaller then the unicode for A, Z, a, or z increase or decrease by 26
+6. Add the key (number of characters to move forward in the alphabet) and if bigger or smaller 
+   then the unicode for A, Z, a, or z increase or decrease by 26
 '''
 
 # Pretty much what this program does is to change the letter to another letter in the alphabet
-# The letter it will switch to, is based on adding or subtracting 26.
+# The letter it will switch to, is based on the key variable
 
 # Receive the message to encrypt and the number of characters to shift
 message = input("Enter your message : ")
