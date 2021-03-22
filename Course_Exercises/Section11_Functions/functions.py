@@ -81,6 +81,8 @@ Otherwise, I will only print the result
 
 1. Why does it have to be str(num_2 - num_1)?? Simple, TypeError: must be str, not int.
 It needs to print a string type of character, not an int
+2. It must have the "+" before. That tells the program to concatenate the 
+"x =" to the str(...)
 
 Finally, print(solv_eq("x + 8 = 5"))..... We're telling it to print solv_eq
 That is the following, 
@@ -90,7 +92,25 @@ IN other words, we declared the structure it was going to have
 Then, we called the output "x = " and we add the math function
 Finally, we passed the values to solv_eq >> solv_eq("x + 8 = 5")'''
 
+# Now, we understand it, we can play around with it a lil' more
+# Let's now make it substract, multiply and divide. Also, we'll make more clear
 
+def eqsolver(equation):
+    x, substract, num_1, equal, num_2 = equation.split()
+    num_1, num_2 = int(num_1), int(num_2)
+    return "x - 8 = 5. Therefore, x = " + str(num_2 - num_1)
+print(eqsolver("x - 8 = 5"))
 
+def eqsolver(equation):
+    x, multiply, num_1, equal, num_2 = equation.split()
+    num_1, num_2 = int(num_1), int(num_2)
+    return "x * 8 = 5. Therefore, x = " + str(num_2 / num_1)
+print(eqsolver("x * 8 = 5"))
+
+def eqsolver(equation):
+    x, divide, num_1, equal, num_2 = equation.split()
+    num_1, num_2 = int(num_1), int(num_2)
+    return "x / 8 = 5. Therefore, x = " + str(num_2 * num_1)
+print(eqsolver("x / 8 = 5"))
 
 
