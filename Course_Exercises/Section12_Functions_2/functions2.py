@@ -28,8 +28,33 @@ def get_primes(max_number):
             list_of_primes.append(num_1)
     return list_of_primes
 
+
 max_num_to_check = int(input("Search for Primes up to : "))
 
 list_of_primes = get_primes(max_num_to_check)
 for prime in list_of_primes:
     print(prime)
+
+# We can receive an unknown number of arguments using the splat (*) operator
+# ALWAYS be careful not to use a conflicting name like "sum"
+# bcs it will cause the program to break without apparent reason
+# and the program will not show ANY type of error or warning
+# ALSO, BE EXTREMELY CAREFUL WITH INDENTATION...
+# return sum_mike was not working bcs it was inside the loop and it was
+# supposed to be outside
+
+def sum_todo(*pico):
+    sum_mike = 0
+    for i in pico:
+        sum_mike += i
+    return sum_mike
+
+print("Sum :", sum_todo(1, 2, 3, 4))
+
+def sum_all(*args):
+    sum_1 = 0
+    for i in args:
+        sum_1 += 1
+    return sum_1
+
+print("Sum : ", sum_all(1, 2, 3, 4))

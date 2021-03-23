@@ -28,7 +28,7 @@ def get_primes(max_number_req):
         if is_prime(num_1):
             list_of_primes.append(num_1)
             # If the result of is_prime is true, then we add it to the empty list we did before by
-            # calling it and using the append
+            # calling it and using the append method
     return list_of_primes
 
 
