@@ -54,7 +54,7 @@ print("Sum :", sum_todo(1, 2, 3, 4))
 def sum_all(*args):
     sum_1 = 0
     for i in args:
-        sum_1 += 1
+        sum_1 += i
     return sum_1
 
-print("Sum : ", sum_all(1, 2, 3, 4))
+print("Sum :", sum_all(1, 2, 3, 4))
