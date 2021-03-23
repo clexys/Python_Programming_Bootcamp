@@ -14,8 +14,6 @@ print("5 / 4 =", divide)
 # Now, let's try to use the same function by asking the input from the user
 
 def mult_div(num_1, num_2):
-    input("Enter the 2 number you want to mult and div: ", num_1, num_2)
+    num_1, num_2 = input("Enter the 2 number you want to mult and div: ", num_1, num_2)
 
-    # Testing git
-Trying again.....
-AND TRYING AGAIN..... 
+   
