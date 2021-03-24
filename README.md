@@ -6,7 +6,7 @@
 1. [Comparing code](https://diffnow.com/compare-clips)
 2. [How to Run Python Scripts - Full Guide](https://realpython.com/run-python-scripts/)
 ### Course Sections
-#### Each Section has heavily commented sample exercises and sample code within it
+#### Each Section has sample exercises and sample code within it and they're heavily commented
 1. [Section 2 - Installation](https://github.com/clexys/Python_Programming_Bootcamp/tree/Mike/PDF%20Docs/Section2_Installation)
 2. [Section 3 - Variables](https://github.com/clexys/Python_Programming_Bootcamp/tree/Mike/Course_Exercises/Section2)
 3. [Section 4 - Input and Math Functions](https://github.com/clexys/Python_Programming_Bootcamp/tree/Mike/Course_Exercises/Section4)
