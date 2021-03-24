@@ -79,8 +79,9 @@ print(num_list)
 # 1. An outer loop decreases in size each time
 # 2. The goal is to have the largest number at the end of the list when the outer loop completes 1 cycle
 # 3. The inner loop starts comparing indexes at the beginning of the loop
-# 4. Check if list[Index] > list[Index + 1]
-# 5. If so swap the index values
+# 4. Check if list[Index] > list[Index + 1]>>>
+# This means check if the first item on the list is greater than the next item
+# 5. If that is the case, we swap the index values. That means change the item's order
 # 6. When the inner loop completes the largest number is at the end of the list
 # 7. Decrement the outer loop by 1
 
