@@ -11,7 +11,7 @@
 3. [Section 3 - Variables, Data Types and Casting](https://github.com/clexys/Python_Programming_Bootcamp/tree/Mike/Course_Exercises/Section2)
      > [Variables, Data Types and Casting Docs](https://github.com/clexys/Python_Programming_Bootcamp/tree/Mike/PDF%20Docs/Section3_Variables_DataTypes_Casting)
 5. [Section 4 - Input and Math Functions](https://github.com/clexys/Python_Programming_Bootcamp/tree/Mike/Course_Exercises/Section4)
-     > [Input and Math Functions](
+     > [Input and Math Functions](https://github.com/clexys/Python_Programming_Bootcamp/tree/Mike/PDF%20Docs/Section4_Input%26Math_Functions)
 7. [Section 5 - Condtionals](https://github.com/clexys/Python_Programming_Bootcamp/tree/Mike/Course_Exercises/Section5_Conditionals)
 8.   > [Condtionals Docs](https://github.com/clexys/Python_Programming_Bootcamp/tree/Mike/PDF%20Docs/Section5_Conditionals)
 9. [Section 6 - For Loop and Range](https://github.com/clexys/Python_Programming_Bootcamp/tree/Mike/Course_Exercises/Section6_For_%26Range)
