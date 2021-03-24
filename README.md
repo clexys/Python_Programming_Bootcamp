@@ -2,6 +2,9 @@
 
 ### This a complete Python Course focused on problem solving and learning Python on a deep level
 
-#### Resources 
+### Resources 
 1. [Comparing code](https://diffnow.com/compare-clips)
-2. [PDF Docs Sorted by Course Section](https://github.com/Ilikef150s2/Python_Programming_Bootcamp/tree/Mike's-Branch/PDF%20Docs)
+2. [How to Run Python Scripts - Full Guide](https://realpython.com/run-python-scripts/)
+### Course Sections
+1. 
+2. 
