@@ -57,6 +57,11 @@ first3.append("Another")
 
 # PROBLEM
 
-# Generate a random list between 1-9
+# Generate a random list of 5 values between 1-9
 
+# MY GUESS
+
+my_list = []
+for my in range(5):
+    my_list(random.randrange(1,9))
 
