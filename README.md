@@ -5,6 +5,7 @@
 ### Resources 
 1. [Comparing code](https://diffnow.com/compare-clips)
 2. [How to Run Python Scripts - Full Guide](https://realpython.com/run-python-scripts/)
+3. [Data Structures (Lists, Dictionaries, Tuples, etc) and other Python topics](https://docs.python.org/3/tutorial/datastructures.html)
 ### Course Sections
 #### Each Section has sample exercises and sample code within it and they're heavily commented
 1. [Section 2 - Installation](https://github.com/clexys/Python_Programming_Bootcamp/tree/Mike/PDF%20Docs/Section2_Installation)
