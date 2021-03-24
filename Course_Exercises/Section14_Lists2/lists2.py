@@ -20,8 +20,11 @@ for k in list_of_values:
     print(k)
 print()
 
+# MULTI DIMENSIONAL LIST
+# PRETTY MUCH IT HAS ROWS AND COLUMNS
+
 # Create a 10 x 10 list
-multi_d_list = [[0] * 10 for i in range(10)]
+multi_d_list = [[0] * 5 for i in range(5)]
 
 # Change a value in the multidimensional list
 multi_d_list[0][1] = 10
