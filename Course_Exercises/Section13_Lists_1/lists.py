@@ -79,7 +79,7 @@ print(num_list)
 # Bubble Sort
 
 # The Bubble sort is a way to sort a list. In it's simplest form, it arranges the list if it's
-#vout of order
+# out of order
 # It works this way :
 # 1. An outer loop decreases in size each time
 # 2. The goal is to have the largest number at the end of the list when the outer loop completes 1 cycle
