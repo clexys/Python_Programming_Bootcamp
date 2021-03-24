@@ -118,4 +118,7 @@ def main():
 # All of the function definitions are ignored and this calls for main()
 # to execute when the program starts
 
+# I THINK THAT DEREK'S INTENTION WAS TO DEMONSTRATE THAT WE CAN MAKE A BLOCK OF CODE
+# AT ANY POINT AND EXECUTE BEFORE ANYTHING ELSE.
+
 main()
