@@ -22,7 +22,7 @@ encryptedmessage = ""
 shiftkey = 0
 # Checks to make sure that the shiftkey is between 1 and 26
 while shiftkey < 1 or shiftkey > 26:
-    shiftkey = input("Enter amount of letters to shift by (1 through 26): ")
+    shiftkey = input("Provide amount of letters to shift by (1 through 26): ")
     shiftkey = int(shiftkey)
 # for loop to check each index of the message
 for char in message:

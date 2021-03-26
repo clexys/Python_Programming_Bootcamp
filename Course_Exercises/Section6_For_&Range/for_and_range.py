@@ -13,7 +13,7 @@ for i in [2,4,6,8,10]:
    to the number we define but not including that number. 
     For example'''
 
-for i in range(6):
+for i in range(10):
     print("i =", i)
 
 i = 6

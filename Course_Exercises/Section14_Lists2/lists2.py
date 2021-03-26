@@ -25,9 +25,10 @@ print()
 
 # Create a 10 x 10 list
 multi_d_list = [[0] * 5 for i in range(5)]
+print(multi_d_list)
 
 # Change a value in the multidimensional list
-multi_d_list[0][1] = 10
+multi_d_list[0][1] = 12
 
 # Get the 2nd item in the 1st list
 # It may help to think of it as the 2nd item in the 1st row
@@ -48,11 +49,14 @@ list_table = [[0] * 10 for i in range(10)]
 for i in range(10):
 
     for j in range(10):
-        list_table[i][j] = "{} : {}".format(i, j)
+        list_table[i][j] = "{} : {}".format(j, i)
+        # format here takes value i and places in thr first {} and value j into the 2nd {}; and gives it a format
+        # the order of the values within format is interchangeable
 
 for i in range(10):
     for j in range(10):
         print(list_table[i][j], end=" || ")
+        # end= does not provide a new line. and provides the symbol of choice within a string
     print()
 
 '''
