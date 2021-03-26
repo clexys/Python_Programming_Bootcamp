@@ -8,7 +8,9 @@
 3. [Data Structures (Lists, Dictionaries, Tuples, etc) and other Python topics](https://docs.python.org/3/tutorial/datastructures.html)
 ### Course Sections
 #### Each Section has sample exercises and sample code within it and they're heavily commented
-1. [Section 2 - Installation](https://github.com/clexys/Python_Programming_Bootcamp/tree/Mike/PDF%20Docs/Section2_Installation)
+1. [Section 2 - Installation](https://github.com/clexys/Python_Programming_Bootcamp/tree/Mike/PDF%20Docs/Section2_Installation)  
+    2.1 [Windows Installation](https://github.com/clexys/Python_Programming_Bootcamp/blob/Mike/PDF%20Docs/Section2_Installation/Install%2BPython%2Bon%2BWindows.pdf)  
+    2.2 [Mac Installation](https://github.com/clexys/Python_Programming_Bootcamp/blob/Mike/PDF%20Docs/Section2_Installation/Install%2BPython%2BMacOS.pdf)
 3. [Section 3 - Variables, Data Types and Casting](https://github.com/clexys/Python_Programming_Bootcamp/tree/Mike/Course_Exercises/Section2)
      > [Variables, Data Types and Casting Docs](https://github.com/clexys/Python_Programming_Bootcamp/tree/Mike/PDF%20Docs/Section3_Variables_DataTypes_Casting)
 5. [Section 4 - Input and Math Functions](https://github.com/clexys/Python_Programming_Bootcamp/tree/Mike/Course_Exercises/Section4)
