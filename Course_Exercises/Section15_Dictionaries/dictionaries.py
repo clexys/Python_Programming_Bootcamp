@@ -3,7 +3,7 @@
 #Unlike lists, they use pair of key - values. Structure is 
 # fName : "Mike" >> fName is the key; "Mike" is the value
 
-mike_dict = {"first_name": "Mike", "last_name", "Altamirano",
+mike_dict = {"first_name": "Mike", "last_name": "Altamirano",
             "phone":"58496194"}
 # first we define the name mike_dict =
 # Then, we put everything insie {} and use double quotations for the key and the value
