@@ -50,3 +50,67 @@ print(mike_dict.get("second_name", "Not Found"))
 
 print(mike_dict.get("city", "Not Found"))
 
+# Delete a key value
+
+del mike_dict["first_name"]
+
+# Loop thu the dictionary
+for i in mike_dict:
+    print(i)
+
+# Delete the WHOLE dictionary
+mike_dict.clear()
+print(mike_dict.get("city", "Not Found"))
+
+# CREATE A LIST TO HOLD A DICTIONARY
+
+# We create the empty list first,
+employees = []
+
+# Then, we create our variables and use input to get request data from the user
+first_name, last_name = input("Enter Employees Name: ").split()
+
+# Here we use the append method to add the values we stored (in
+# first_name and last_name) and pass them on to our keys we will create
+employees.append({"first_name": first_name, "last_name": last_name})
+print(employees)
+
+'''
+PROBLEM
+
+Create an array of customer dictionaries
+Output sample : 
+
+Enter Customer (Yes/No) : y
+Enter Customer Name : Mike Altamirano
+Enter Customer (Yes/No) : y
+Enter Customer Name : Vashtie Cash
+Enter Customer (Yes/No) : n
+Derek Banas
+Sally Smith
+'''
+# SOLUTION
+# Create customer array outside the for so it isn't local
+# to the while loop
+customers = []
+
+while True:
+    # Cut off the 1st letter to cover if the user
+    # types a n or y
+    create_entry = input("Enter Customer (Yes/No) : ")
+    create_entry = create_entry[0].lower()
+
+    if create_entry == "n":
+
+        # Leave the while loop when n is entered
+        break
+    else:
+        # Get the customer name by splitting at the space
+        f_name, l_name = input("Enter Customer Name : ").split()
+
+        # Add the dictionary to the array
+        customers.append({'f_name': f_name, 'l_name': l_name})
+
+# Print out customer list
+for cust in customers:
+    print(cust['f_name'], cust['l_name'])
