@@ -31,3 +31,22 @@ mike_dict["city"] = "Managua"
 # but it is not mandatory nor necessary
 print("Is there a city? : ", "city" in mike_dict)
 
+# Print a list of my dict values
+
+print(mike_dict.values())
+
+# Print a list of my dict keys
+print(mike_dict.keys())
+
+# Print both of them together
+# .items() method will allow us get all the items within our dic for the loop
+
+for keys, values in mike_dict.items():
+    print(keys, values)
+
+# Get a value from a key
+
+print(mike_dict.get("second_name", "Not Found"))
+
+print(mike_dict.get("city", "Not Found"))
+
