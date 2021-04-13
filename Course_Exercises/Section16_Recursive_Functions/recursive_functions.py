@@ -11,9 +11,18 @@ instead of writing a big block of code. '''
 
 # We create our factorial function
 def factorial(num):
+
+    # Defined the termination condition.
     if num <= 1:
         return 1
+    # Executing the operation with the recursive function
     else:
         result = num * factorial(num - 1)
         return result
 print(factorial(4))
+
+# Here is how it works
+
+# 1st : result = 4 * factorial(3) = 4 * 6 = 24
+# 2nd : result = 3 * factorial(2) = 3 * 2 = 6
+# 3rd : result = 2 * factorial(1) = 2 * 1 = 2
