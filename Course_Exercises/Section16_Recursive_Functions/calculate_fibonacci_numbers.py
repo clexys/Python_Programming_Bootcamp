@@ -14,7 +14,9 @@ def fib(n):
     else:
         result = fib(n-1) + fib(n-2)
         return result
-
-print(fib(3))
+# Note:
+# Here the digit inside of fib(), defines the
+# position on the Fibonacci sequence, NOT the index position.
+print(fib(6))
 
 print(fib(4))

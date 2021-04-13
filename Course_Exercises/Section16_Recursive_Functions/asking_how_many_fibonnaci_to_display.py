@@ -1,4 +1,4 @@
-# Here is sample output you should aim for
+# SAMPLE OUTPUT
 # How many Fibonacci values should be found : 30
 # 1
 # 1
@@ -16,17 +16,20 @@ def fib(num):
         result = fib(num - 1) + fib(num - 2)
         return result
 
-num_fib_vals = int(input("How many Fibonacci values should be found : "))
+amount_fib_values = int(input("How many Fibonacci values should be found : "))
 
-i = 1
+# Here we define the number the list should start off.
+i = 0
 
 # While i is less then the number of values requested
 # continue to find more
-while i < num_fib_vals:
-    # Call the fib()
+while i < amount_fib_values:
+    # Call the fib() we defined above
     fib_val = fib(i)
 
     print(fib_val)
+    # Remember, we should always do i +=1 to move or increase one
+    # position after every loop, otherwise, we'd had an infinite loop.
     i += 1
 
 print("All Done")
