@@ -1,0 +1,3 @@
+Adding some lines to my first file. 
+Understanding how it works.
+Adding more in-lines
