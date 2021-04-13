@@ -16,3 +16,4 @@ def factorial(num):
     else:
         result = num * factorial(num - 1)
         return result
+print(factorial(4))
