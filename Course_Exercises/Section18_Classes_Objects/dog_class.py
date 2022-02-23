@@ -12,7 +12,7 @@ Now, real world objects have attributes and capabilities.
 # We model capabilities using functions which are called methods.
 
 # A class is a blueprint we use to define an
-# objects attributes (fields) and capabilities (methods).
+# object's attributes (fields) and capabilities (methods).
 
 # Here we will model a Dog object.
 
@@ -53,7 +53,7 @@ def main():
     # Spot = Name, 66 = Height, 26 = Weight
     # If you want to change the dog's name, just do it inside the string
     spot = Dog("Chris", 66, 26)
-    # We call the bark function with out new Dog name
+    # We call the bark function with new Dog name
     spot.bark()
 
 main()

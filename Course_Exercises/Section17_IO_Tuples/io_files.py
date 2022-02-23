@@ -16,7 +16,7 @@ import os
 # NOTE: "w" will overwrite everything on th file.
 # To add to the file content, you should use "a"
 # encoding="utf-8", we're defining the coding type, in this case Unicode
-# as my_file = we're telling the program that the file will assigned to a var
+# as my_file = we're telling the program that the file will be assigned to a var
 
 with open("myfirstfile.txt", mode="w", encoding="utf-8") as my_file:
     my_file.write("Adding some lines to my first file. \nUnderstanding "
@@ -38,12 +38,12 @@ print(my_file.mode)
 # os.rename("myfirstfile.txt", "myfile2.txt")
 
 # Delete the file
-os.remove("myfirstfile.txt")
+# os.remove("myfirstfile.txt")
 
 # Create a Directory
-os.mkdir("mydir")
+# os.mkdir("mydir")
 # Change Directory
-os.chdir("mydir")
+# os.chdir("mydir")
 
 # Verify the Directory we're in
 print("Current Directory :", os.getcwd())
@@ -63,22 +63,24 @@ print("Current Directory :", os.getcwd())
 
 # You can read one line at a time with readline()
 
-import os
 
 # Open the file
-with open("mydata2.txt", encoding="utf-8") as my_file:
+with open("mydata2.txt", mode="w", encoding="utf-8") as my_file2:
+    my_file2.add("Hopefully it works" "\n Tesing never ends")
+
+with open("mydata2.txt", encoding="utf-8") as my_file2:
 
     lineNum = 1
 
     # We'll use a while loop that loops until the data
     # read is empty
-    while True:
-        line = my_file.readline()
+    # while True:
+        #line = my_file.readline()
 
         # line is empty so exit
-        if not line:
-            break
+        # if not line:
+            # break
 
-        print("Line", lineNum, " :", line, end="")
+        # print("Line", lineNum, " :", line, end="")
 
-        lineNum += 1
+        # lineNum += 1
